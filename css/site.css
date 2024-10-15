@@ -34,3 +34,10 @@ h1 {
   border: solid 1px #888;
   background-color: #A3C9A8;
 }
+
+#links {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: #afd81c;
+}
