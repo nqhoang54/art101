@@ -19,3 +19,7 @@ function main() {
 
 // let's get this party started
 main();
+
+//Section d shanignas
+var apples=5;
+console.log(apples);
