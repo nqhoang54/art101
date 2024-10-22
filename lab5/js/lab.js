@@ -19,3 +19,28 @@ function main() {
 
 // let's get this party started
 main();
+
+/**
+ * Author:    Nam Hoang
+ * Created:   10.21.2024
+ * 
+ * License: Public Domain
+ **/
+
+// Define Variables
+var make = "Honda";
+var model = "Civic";
+var color = "blue";
+var year = 2004;
+var ownIt = true;
+
+// Calculate
+var age = 2024 - year;
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Do I own it? " + ownIt + "<br>");
+document.writeln("Age: " + age + "<br>");
