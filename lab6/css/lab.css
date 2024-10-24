@@ -7,3 +7,14 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  .img{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+  }
+  .img img{
+  width: 50%;
+  height: auto;
+  
+  
+  }
