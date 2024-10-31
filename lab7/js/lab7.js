@@ -7,11 +7,12 @@
 //Create a new function in your file, call it what you like, but choose wisely.
 
 // make a window prompt to get the input
-let person = prompt("Please enter your name", "Harry Potter");
+//let person = window.prompt("Please enter your name", "Lebron James");
 
-function userName(strs){
+function userName(){
 	//use user input and split, sort, and lasty join 
-  return strs.split('').sort().join('');
+  let person = window.prompt("Please enter your name", "Lebron James");
+  return person.split('').sort().join('');
 }
 //next this allows me to print it 
-document.writeln(userName(person));
+document.writeln(userName());
