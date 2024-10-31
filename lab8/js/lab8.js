@@ -29,5 +29,5 @@ console.log("Results adding 2", mapResults)
 console.log('Results multiplying by 2',res2)
 
 //attempted to do lab X but failed
-//var mapResults = "Your map results here",mapResults;
-//$("#output").html(mapResults); 
+  //var mapResults = "Your map results here",mapResults;
+  //$("#output").html(mapResults); 
