@@ -12,10 +12,11 @@ function addTwo(array){
   return array + 2;
 }
 
-//call function 
-//document.writeln(addTwo(5));
-//console.log(array.map(addTwo));
-//document.writeln(array.map(addtwo));
+//This whole comments of code are not working
+  //call function 
+  //document.writeln(addTwo(5));
+  //console.log(array.map(addTwo));
+  //document.writeln(array.map(addtwo));
 
 let res2=array.map(function(array){
   var results = array*2
@@ -23,7 +24,10 @@ let res2=array.map(function(array){
 })
 
 var mapResults = array.map(addTwo);
-//var map2Results = array.map(function);
 console.log("My array: ", array)
 console.log("Results adding 2", mapResults)
 console.log('Results multiplying by 2',res2)
+
+//attempted to do lab X but failed
+//var mapResults = "Your map results here",mapResults;
+//$("#output").html(mapResults); 
