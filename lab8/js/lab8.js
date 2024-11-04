@@ -18,7 +18,7 @@ function addTwo(array){
   //console.log(array.map(addTwo));
   //document.writeln(array.map(addtwo));
 
-let res2=array.map(function(array){
+var res2=array.map(function(array){
   var results = array*2
   return results;
 })
@@ -29,5 +29,6 @@ console.log("Results adding 2", mapResults)
 console.log('Results multiplying by 2',res2)
 
 //attempted to do lab X but failed
-  //var mapResults = "Your map results here",mapResults;
-  //$("#output").html(mapResults); 
+//mapResults2 = "Your map results here";
+//$("#output").html(mapResults2);
+//$("#output").html(mapResults); 
