@@ -1,0 +1,12 @@
+.special {
+    background-color: rgb(116, 116, 219);
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
+#challenge {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #23223b;
+  }
