@@ -1,14 +1,15 @@
-.heading2 {
+
+
+.minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #d33b3b;
-
+    background-color: #6b3b3b;
 }
-.simple {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #d33b3b;
 
+.party {
+    background-color: rgb(116, 116, 219);
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
 }
