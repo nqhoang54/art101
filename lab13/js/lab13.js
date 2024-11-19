@@ -56,8 +56,7 @@ function fizzBuzz(){
 //Make it so the output of your program appears in your output div
 var oneLongString = "";
 fizzBuzz()
-//oneLongString += i + " Fizz!<br>";  
-//$("#output").html(oneLongString);
+
 
 
 
