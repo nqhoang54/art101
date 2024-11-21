@@ -8,18 +8,12 @@
 //Create an array of numbers and assign it to a variable.
 var array = [1, 2, 3, 4, 5];
 //Create a named function that will take a single parameter, do a calculation on it (sqrt, sqr, addition, etc), and return the result.
-function addTwo(array){
-  return array + 2;
+function addTwo(num){
+  return num + 2;
 }
 
-//This whole comments of code are not working
-  //call function 
-  //document.writeln(addTwo(5));
-  //console.log(array.map(addTwo));
-  //document.writeln(array.map(addtwo));
-
-var res2=array.map(function(array){
-  var results = array*2
+var res2=array.map(function(element){
+  var results = element*2
   return results;
 })
 
@@ -29,6 +23,9 @@ console.log("Results adding 2", mapResults)
 console.log('Results multiplying by 2',res2)
 
 //attempted to do lab X but failed
-//mapResults2 = "Your map results here";
-//$("#output").html(mapResults2);
-//$("#output").html(mapResults); 
+mapResults2 = "Results adding 2: "+ mapResults;
+console.log(mapResults2);
+// $("#output").html(array);
+// $("#output").append(mapResults2);
+mapOutput = "Original Array: " +array+ "<br> Results Multiplying by Two: "+res2+"<br>"+"Results Multiplying by Two: "+mapResults;
+$("#output").html(mapOutput);
